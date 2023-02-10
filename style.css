@@ -55,7 +55,6 @@ header {
     text-align: center;
 
 
-
 }
 
 .donate-today-section .title {
@@ -109,4 +108,131 @@ header {
 .dona hr {
     width: 765px;
     height: 0px;
+}
+
+.donate-plan-section {
+    margin: 20px 370px;
+}
+
+.donate-plan-header {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.donate-plan-header h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.donate-plan-header p {
+    font-size: 18px;
+    color: #707070;
+    margin-top: 20px;
+}
+
+.donate-plans {
+    display: flex;
+    gap: 24px;
+
+}
+
+.donate-plan {
+    background-color: #B3B3B3;
+    padding-top: 63px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 54px;
+
+}
+
+.plan-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.plan-description {
+    font-size: 16px;
+    color: #707070;
+}
+
+.contribute-section {
+
+    margin: 130px 150px;
+}
+
+.contribute-type {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 100px;
+}
+
+.contribute-ditails {
+    width: 50%;
+}
+
+.contribute-ditails img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.get-update-section {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+
+.update-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.update-description {
+    font-size: 18px;
+    color: #707070;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.subscribe {
+    background: #FFF4D6;
+    /* width: 75%; */
+    height: 200px;
+    text-align: center;
+    /* margin: auto; */
+    margin-bottom: 130px;
+}
+
+form input[type="email"] {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 432px;
+    height: 56px;
+    padding-left: 20px;
+    margin-top: 76px;
+}
+
+footer {
+    width: auto;
+    height: 177px;
+    background-color: black;
+    text-align: center;
+}
+
+/* .footer-section {
+   
+} */
+
+footer h1 {
+    color: #FF5959;
+    padding-top: 70px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer p {
+    font-size: 14px;
+    color: #FFFFFF;
 }
